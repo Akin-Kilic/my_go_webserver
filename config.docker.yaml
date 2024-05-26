@@ -1,0 +1,9 @@
+port: "6001"
+database:
+    host: my_go_webserver_db
+    port: 5432
+    user: webserver
+    password: webserver
+    dbname: webserver
+    sslmode: disable
+    migrate: true
